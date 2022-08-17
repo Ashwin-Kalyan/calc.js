@@ -1,0 +1,12 @@
+.trig-operations {
+    display: grid;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.trig-operations > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid #FFFFFF;
+    outline: none;
+}
