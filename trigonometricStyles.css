@@ -1,12 +1,28 @@
 .trig-operations {
     display: grid;
     justify-content: center;
-    align-content: flex-end;
+    align-content: center;
+    font-size: 1rem;
+    background-color: rgba(120, 245, 161, .65);
 }
 
-.trig-operations > button {
-    cursor: pointer;
-    font-size: 2rem;
-    border: 1px solid #FFFFFF;
-    outline: none;
+.trig-operations:hover {
+    background-color: rgba(120, 245, 161, .85);
+}
+
+.trig-operations:active {
+    background-color: rgb(120, 245, 161);
+}
+
+.span-three-func {
+    grid-column: span 3;
+    background-color: rgba(153, 193, 248, 0.65);
+}
+
+.span-three-func:hover {
+    background-color: rgba(153, 193, 248, 0.85);
+}
+
+.span-three-func:active {
+    background-color: rgb(153, 193, 248);
 }
