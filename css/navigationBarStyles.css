@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+ul {
+    font-family: 'Nunito', Times;
+    font-weight: normal;
+    background-color: rgba(0, 0, 0, .85);
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #BDBEBF;
+}
+
+li {
+    color: #707070;
+    padding-right: 30px;
+}
