@@ -1,0 +1,97 @@
+.calculator-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+.calculator-grid > button {
+    cursor: pointer;
+    font-size: 1.65rem;
+    border: 1px solid #FFFFFF;
+    outline: none;
+}
+
+.numpad {
+    background-color: rgba(255, 255, 255, .65);
+}
+
+.numpad:hover {
+    background-color: rgba(255, 255, 255, .85);
+}
+
+.numpad:active {
+    background-color: rgb(255, 255, 255);
+}
+
+.span-two-numpad {
+    grid-column: span 2;
+    background-color: rgba(255, 255, 255, .65);
+}
+
+.span-two-numpad:hover {
+    background-color: rgba(255, 255, 255, .85);
+}
+
+.span-two-numpad:active {
+    background-color: rgb(255, 255, 255);
+}
+
+.operands-color {
+    background-color: rgba(248, 131, 121, 0.65);
+}
+
+.operands-color:hover {
+    background-color: rgba(248, 131, 121, 0.85);
+}
+
+.operands-color:active {
+    background-color: rgb(248, 131, 121);
+}
+
+.span-two-func {
+    grid-column: span 2;
+    background-color: rgba(153, 193, 248, 0.65);
+}
+
+.span-two-func:hover {
+    background-color: rgba(153, 193, 248, 0.85);
+}
+
+.span-two-func:active {
+    background-color: rgb(153, 193, 248);
+}
+
+.func {
+    background-color: rgba(153, 193, 248, 0.65);
+}
+
+.func:hover {
+    background-color: rgba(153, 193, 248, 0.85);
+}
+
+.func:active {
+    background-color: rgb(153, 193, 248);
+}
+
+.output {
+    grid-column: 1 / -1;
+    background-color: rgba(0, 0, 0, .65);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.output .previous-operand {
+    color: rgba(255, 255, 255, .65);
+    font-size: 1.5rem;
+}
+
+.output .current-operand {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+}

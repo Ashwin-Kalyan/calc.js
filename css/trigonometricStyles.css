@@ -1,0 +1,24 @@
+.trig-operations {
+    background-color: rgba(120, 245, 161, .65);
+}
+
+.trig-operations:hover {
+    background-color: rgba(120, 245, 161, .85);
+}
+
+.trig-operations:active {
+    background-color: rgb(120, 245, 161);
+}
+
+.span-three-func {
+    grid-column: span 3;
+    background-color: rgba(153, 193, 248, 0.65);
+}
+
+.span-three-func:hover {
+    background-color: rgba(153, 193, 248, 0.85);
+}
+
+.span-three-func:active {
+    background-color: rgb(153, 193, 248);
+}
